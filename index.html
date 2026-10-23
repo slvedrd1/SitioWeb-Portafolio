@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Eduardo Silva | Analista Programador</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ENCABEZADO Y NAVEGACIÓN -->
+  <header class="header">
+    <nav class="nav container">
+      <div class="logo">
+        <span class="code-bracket">&lt;</span>ES<span class="code-bracket">/&gt;</span>
+      </div>
+      <div class="nav-links">
+        <a href="#sobre-mi">Sobre mí</a>
+        <a href="#habilidades">Stack Tecnológico</a>
+        <a href="#proyectos">Proyectos</a>
+        <a href="#contacto" class="btn-nav">Contacto</a>
+      </div>
+    </nav>
+  </header>
+
+  <!-- HERO SECTION -->
+  <section class="hero">
+    <div class="hero-bg-grid"></div>
+    <div class="container hero-content">
+      <div class="status-badge">
+        <span class="status-dot"></span> Estudiante de Analista Programador
+      </div>
+      
+      <h1 class="title">
+        Hola, soy <span class="highlight">Eduardo Silva</span>
+      </h1>
+      
+      <p class="subtitle">
+        Enfocado en la resolución de problemas mediante software, construcción de lógica de programación y desarrollo de bases de datos.
+      </p>
+
+      <div class="hero-buttons">
+        <a href="#proyectos" class="btn btn-primary">Ver Proyectos</a>
+        <a href="#contacto" class="btn btn-secondary">Contactar</a>
+      </div>
+
+      <!-- Consola de terminal interactiva -->
+      <div class="terminal-card">
+        <div class="terminal-header">
+          <span class="dot dot-red"></span>
+          <span class="dot dot-yellow"></span>
+          <span class="dot dot-green"></span>
+          <span class="terminal-title">dev_profile.py</span>
+        </div>
+        <div class="terminal-body">
+          <p><span class="keyword">class</span> <span class="class-name">Programador</span>:</p>
+          <p class="indent-1"><span class="keyword">def</span> <span class="func-name">__init__</span>(self):</p>
+          <p class="indent-2">self.nombre = <span class="string">"Eduardo Silva"</span></p>
+          <p class="indent-2">self.rol = <span class="string">"Analista Programador (Estudiante)"</span></p>
+          <p class="indent-2">self.status = <span class="string">"Construyendo soluciones & aprendiendo diariamente"</span></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SECCIÓN SOBRE MÍ -->
+  <section id="sobre-mi" class="section border-top">
+    <div class="container">
+      <span class="section-tag">01. Introducción</span>
+      <h2 class="section-title">Sobre mí</h2>
+      
+      <div class="about-grid">
+        <div class="about-text">
+          <p class="lead-text">
+            Apasionado por la tecnología y la lógica detrás de los sistemas. Actualmente me encuentro cursando la carrera de <strong>Analista Programador</strong>, fortaleciendo mis fundamentos teóricos y prácticos en desarrollo de software.
+          </p>
+          <p>
+            Mi objetivo es diseñar algoritmos eficientes, estructurar modelos de datos sólidos e integrarme en proyectos de software que generen un impacto positivo real.
+          </p>
+        </div>
+
+        <div class="stats-grid">
+          <div class="stat-card">
+            <span class="stat-num">Python</span>
+            <span class="stat-label">Lógica de Programación & Scripts</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-num">Java</span>
+            <span class="stat-label">Programación Orientada a Objetos</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-num">SQL</span>
+            <span class="stat-label">Bases de Datos Relacionales</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SECCIÓN HABILIDADES / STACK -->
+  <section id="habilidades" class="section border-top">
+    <div class="container">
+      <span class="section-tag">02. Competencias</span>
+      <h2 class="section-title">Stack Tecnológico & Aprendizaje</h2>
+
+      <div class="skills-grid">
+
+        <!-- Python Card -->
+        <div class="skill-card">
+          <div class="skill-header">
+            <div class="skill-icon python-color">Py</div>
+            <span class="skill-level level-learned">Aprendido</span>
+          </div>
+          <h3>Python</h3>
+          <p>Dominio de sintaxis, estructuras de datos, funciones, orientación a objetos y desarrollo de lógica interactiva para automatización de tareas.</p>
+        </div>
+
+        <!-- Java Card -->
+        <div class="skill-card">
+          <div class="skill-header">
+            <div class="skill-icon java-color">Jv</div>
+            <span class="skill-level level-learning">En Aprendizaje</span>
+          </div>
+          <h3>Java</h3>
+          <p>Estudio de los fundamentos de POO (Herencia, Polimorfismo, Encapsulamiento), clases, tipos de datos estrictos y construcción de aplicaciones modulares.</p>
+        </div>
+
+        <!-- SQL Card -->
+        <div class="skill-card">
+          <div class="skill-header">
+            <div class="skill-icon sql-color">SQL</div>
+            <span class="skill-level level-starting">Iniciando</span>
+          </div>
+          <h3>SQL</h3>
+          <p>Comenzando la gestión de bases de datos relacionales, sintaxis de consultas DDL/DML (SELECT, INSERT, UPDATE, JOINs) y diseño de tablas.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- SECCIÓN PROYECTOS -->
+  <section id="proyectos" class="section border-top">
+    <div class="container">
+      <span class="section-tag">03. Portafolio</span>
+      <h2 class="section-title">Proyectos Desarrollados</h2>
+      <p class="section-subtitle">Repositorios reales de mi autoría desarrollados durante mi proceso académico y de práctica constante.</p>
+
+      <div class="projects-grid">
+
+        <!-- Proyecto 1: Sistema de Gestión en Consola -->
+        <article class="project-card">
+          <div class="project-content">
+            <div class="project-header">
+              <span class="folder-icon">📁</span>
+              <div class="project-links-group">
+                <a href="https://github.com/slvedrd1/FPY1101_EP_Eduardo_Silva" target="_blank" rel="noopener noreferrer" class="project-link">GitHub &rarr;</a>
+              </div>
+            </div>
+            <h3 class="project-title">Sistema de Gestión en Consola</h3>
+            <p class="project-desc">Proyecto desarrollado en Python enfocado en el control de registros, manejo de estructuras de datos y validaciones avanzadas a través de una interfaz por línea de comandos.</p>
+            <div class="project-techs">
+              <span>Python</span>
+              <span>Consola</span>
+              <span>Estructuras de Datos</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- Proyecto 2: Web Trayectos de la Carne (CON AMBOS ENLACES) -->
+        <article class="project-card highlight-project">
+          <div class="project-content">
+            <div class="project-header">
+              <span class="folder-icon">🌐</span>
+              <div class="project-links-group">
+                <a href="https://slvedrd1.github.io/pagina-trayectosdelacarne/" target="_blank" rel="noopener noreferrer" class="project-link live-demo-link">Sitio Web en Vivo &rarr;</a>
+                <a href="https://github.com/slvedrd1/pagina-trayectosdelacarne" target="_blank" rel="noopener noreferrer" class="project-link">GitHub &rarr;</a>
+              </div>
+            </div>
+            <h3 class="project-title">Sitio Web "Trayectos de la Carne"</h3>
+            <p class="project-desc">Página web diseñada para la primera exposición individual de performance de la artista Cheril Linett en Chile. Incluye formulario de mediación, estética brutalista y maquetación en HTML5 y CSS3 puro.</p>
+            <div class="project-techs">
+              <span>HTML5</span>
+              <span>CSS3</span>
+              <span>Diseño Responsive</span>
+              <span>GitHub Pages</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- Proyecto 3: Examen Python / Inventario de Juegos -->
+        <article class="project-card">
+          <div class="project-content">
+            <div class="project-header">
+              <span class="folder-icon">📁</span>
+              <div class="project-links-group">
+                <a href="https://github.com/slvedrd1/EduardoSilva_015V_A" target="_blank" rel="noopener noreferrer" class="project-link">GitHub &rarr;</a>
+              </div>
+            </div>
+            <h3 class="project-title">Sistema de Inventario de Juegos</h3>
+            <p class="project-desc">Examen práctico de Python que implementa un CRUD completo para videojuegos: agregar nuevos títulos, buscar registros, eliminar, actualizar precios y filtrar consultas por stock.</p>
+            <div class="project-techs">
+              <span>Python</span>
+              <span>CRUD</span>
+              <span>Lógica de Negocio</span>
+            </div>
+          </div>
+        </article>
+
+      </div>
+
+      <!-- Call to Action para GitHub -->
+      <div class="github-cta">
+        <p>¿Quieres explorar más sobre mi trabajo y repositorios?</p>
+        <a href="https://github.com/slvedrd1" target="_blank" rel="noopener noreferrer" class="btn btn-primary">Visitar mi perfil en GitHub (slvedrd1) &rarr;</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- SECCIÓN CONTACTO -->
+  <section id="contacto" class="section border-top">
+    <div class="container text-center">
+      <span class="section-tag">04. ¿Hablamos?</span>
+      <h2 class="section-title">Ponte en contacto conmigo</h2>
+      <p class="contact-desc">
+        Estoy siempre dispuesto a aprender, colaboraciones académicas o proyectos de programación.
+      </p>
+
+      <div class="contact-cards">
+        <a href="mailto:slvedrd1@gmail.com" class="contact-card">
+          <div class="contact-icon">✉</div>
+          <div class="contact-info">
+            <span class="contact-label">Correo Electrónico</span>
+            <span class="contact-val">slvedrd1@gmail.com</span>
+          </div>
+        </a>
+
+        <a href="https://github.com/slvedrd1" target="_blank" rel="noopener noreferrer" class="contact-card">
+          <div class="contact-icon">🐙</div>
+          <div class="contact-info">
+            <span class="contact-label">GitHub</span>
+            <span class="contact-val">github.com/slvedrd1</span>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- PIE DE PÁGINA -->
+  <footer class="footer">
+    <div class="container footer-content">
+      <p>&copy; 2026 Eduardo Silva — Analista Programador</p>
+      <div class="footer-links">
+        <a href="https://github.com/slvedrd1" target="_blank" rel="noopener">GitHub</a>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
